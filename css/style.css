@@ -27,8 +27,6 @@ a {
 .container {
     width: 80%;
     margin: 0 auto;
-    /* test */
-    border: 2px solid fuchsia;
 }
 
 .clearfix::after {
@@ -39,8 +37,6 @@ a {
 
 .col {
     float: left;
-    /* test */
-    height: 60px;
 }
 
 /* BUTTON */
@@ -51,11 +47,28 @@ a {
 
 }
 
+.btn-dark {
+    background-color: #23272A;
+    color: white;
+}
+
 .btn-small {
     padding: .6em 1em;
     border-radius: 50px;
     font-size: .9em;
+}
 
+.btn-large {
+    display: inline-block;
+    padding: .8em 1.5em;
+    border-radius: 50px;
+    font-size: 1.2em;
+}
+
+/* TEXT PROPRIETY */
+.text {
+    font-size: 1em;
+    line-height: 1.6em;
 }
 
 /* HEADER */
@@ -105,16 +118,30 @@ header {
 
 /* JUMBOTRON */
 .jumbotron {
-    height: 400px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 8em 0;
 }
 
 .jumbotron-content {
     width: 50%;
     margin: 0 auto;
-    /* test */
-    background-color: aqua;
+    text-align: center;
+    color: white;
+}
+
+.jumbotron-content .jumbotron-title {
+    font-size: 2.5em;
+    margin-bottom: .8em;
+}
+
+.jumbotron-content .buttons {
+    margin-top: 2em;
+}
+
+.arrow {
+    text-align: center;
+    margin-right: .2em;
 }
