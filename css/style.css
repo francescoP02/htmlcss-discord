@@ -1,3 +1,42 @@
-body {
-    background-color: aqua;
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+html {
+    font-family: "Whitner", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+/* PAGE BLOCK STRUCTURE */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* test */
+    border: 2px solid fuchsia;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    /* test */
+    height: 60px;
+}
+
+/* HEADER */
+
+header {
+    height: 60px;
+    background-color: #3161E0;
 }
