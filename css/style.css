@@ -163,8 +163,11 @@ header {
 
 }
 
-
 .col-text > .title {
     font-size: 2em;
     margin-bottom: 1em;
+}
+
+.advantage-content {
+    margin-bottom: 20em;
 }
