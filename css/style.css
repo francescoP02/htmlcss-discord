@@ -171,3 +171,15 @@ header {
 .advantage-content {
     margin-bottom: 20em;
 }
+
+.content-2-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.content-2-text {
+    text-align: center;
+    width: 80%;
+    margin: 0 10%;
+}
