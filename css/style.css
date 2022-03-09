@@ -8,10 +8,19 @@
 /* COMMON */
 html {
     font-family: "Whitner", sans-serif;
+    font-size: 100%;
 }
 
 img {
     width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* PAGE BLOCK STRUCTURE */
@@ -39,4 +48,38 @@ img {
 header {
     height: 60px;
     background-color: #3161E0;
+}
+
+.header-nav {
+    line-height: 60px;
+    color: white;
+}
+
+.nav-logo, 
+.nav-btn {
+    width: 15%;
+}
+
+.nav-logo img {
+    vertical-align: middle;
+}
+
+.nav-center {
+    width: 70%;
+    text-align: center;
+}
+
+.nav-center .header-menu li {
+    margin-right: 1em;
+    display: inline-block;
+}
+
+.nav-btn {
+    text-align: right;
+}
+
+.nav-center .header-menu a {
+    font-size: 1em;
+    font-weight: bold;
+    color: inherit;
 }
