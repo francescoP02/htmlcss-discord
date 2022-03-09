@@ -145,3 +145,26 @@ header {
     text-align: center;
     margin-right: .2em;
 }
+
+/* ADVANTAGE */
+
+.advantage {
+    padding: 2em;
+}
+
+.col-img {
+    width: 70%;
+}
+
+.col-text {
+    width: 30%;
+    text-align: left;
+    margin: 2.5em 0;
+
+}
+
+
+.col-text > .title {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
