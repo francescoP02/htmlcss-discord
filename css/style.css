@@ -43,6 +43,21 @@ a {
     height: 60px;
 }
 
+/* BUTTON */
+
+.btn-white {
+    background-color: white;
+    color: black;
+
+}
+
+.btn-small {
+    padding: .6em 1em;
+    border-radius: 50px;
+    font-size: .9em;
+
+}
+
 /* HEADER */
 
 header {
@@ -61,7 +76,9 @@ header {
 }
 
 .nav-logo img {
+    width: auto;
     vertical-align: middle;
+    height: 40px;
 }
 
 .nav-center {
