@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+.bg-gray {
+    background-color: #d3d3d3;
+}
+
 /* PAGE BLOCK STRUCTURE */
 .container {
     width: 80%;
@@ -117,6 +121,9 @@ header {
 /* MAIN */
 
 /* JUMBOTRON */
+.wave img {
+    display: block;
+}
 .jumbotron {
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -159,7 +166,7 @@ header {
 .col-text {
     width: 30%;
     text-align: left;
-    margin: 2.5em 0;
+    margin: 5em 0 0;
 
 }
 
@@ -182,4 +189,11 @@ header {
     text-align: center;
     width: 80%;
     margin: 0 10%;
+}
+
+.mac {
+    margin: 0 30%;
+    text-align: center;
+    width: 40%;
+    background-image: url(../img/stars.svg);
 }
